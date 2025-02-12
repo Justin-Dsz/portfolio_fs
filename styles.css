@@ -1,0 +1,148 @@
+:root{
+    margin: 0;
+    padding: 0;
+    --color1:#DDEB9D;
+    --color2:#A0C878;
+    --color3:#27667B;
+    --color4:#143D60;
+    background-color: #DDEB9D;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--color4);
+}
+
+footer{
+    width:100%;
+    background-color: var(--color4);
+    color: var(--color1);
+    margin-bottom: 0px;
+    margin-top: auto;
+    height: 100px;
+}
+footer img{
+    height: 50px;
+    width:50px;
+    border-radius: 5px;
+    background-color: var(--color1);
+    margin-top: 10px;
+}
+
+.socials{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+footer p{
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 100px;
+    display: inline-block;
+    align-self: center;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+
+header h1{
+    display: inline;
+    color: var(--color1);
+    padding-left: 10px;
+}
+
+header .link-list{
+    display: inline-block;
+    margin-left: auto;
+}
+
+header .link{
+    color: #A0C878;
+    font-size: 30px;
+    padding: 0px 15px;
+    display: inline-block;
+    
+}
+
+header .link:hover{
+    background-color: var(--color1);
+    color: var(--color4);
+}
+
+
+.side-menu{
+    width: 50vh;
+    background-color: #27667B;
+}
+
+.about-container{
+    display:grid;
+    grid-template: 1fr/1fr 2fr;
+    height: 100vh;
+}
+.about-left{
+    display: flex;
+    background-color: #27667B;
+    justify-content: center;
+
+}
+
+.about-left img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;    
+}
+
+.project-parent{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.project-grid{
+    display:grid;
+    grid-template:1fr 1fr/1fr 1fr;
+    gap:30px;
+    width: 60%;
+    height: 60%;
+}
+.card{
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+
+}
+.card img{
+    height: 250px;
+    width: 100%;
+}
+
+/*Contact page*/
+#contact-title{
+    text-align: center;
+    margin-top:50px;
+    font-weight: 900;
+    font-size: 55px;
+}
+
+.contact-form label{
+margin: 10px;
+font-size: 40px;
+}
+
+.contact-form input{
+    margin:10px;
+    font-size: 30px;
+}
